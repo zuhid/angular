@@ -1,0 +1,21 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "web",
+      "type": "chrome",
+      "request": "launch",
+      "cwd": "web",
+      "preLaunchTask": "web",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "test",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "test",
+      "url": "http://localhost:9876/debug.html"
+    }
+  ]
+}

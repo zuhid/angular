@@ -1,0 +1,13 @@
+{
+  "header": {
+    "alg": "HS256",
+    "typ": "JWT"
+  },
+  "payload": {
+    "isAuthenticated": true,
+    "firstName": "John",
+    "lastName": "Doe",
+    "displaydata": true
+  },
+  "signature": "mySignature"
+}
