@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { CardComponent } from './card/card.component';
 import { TextComponent } from './text/text.component';
 import { ButtonComponent } from './button/button.component';
+// import { BsButtonComponent } from './bs-button/bs-button.component';
 
 @NgModule({
   declarations: [
     CardComponent,
     TextComponent,
-    ButtonComponent
+    ButtonComponent,
+    // BsButtonComponent
   ],
   imports: [
     CommonModule,
@@ -18,7 +20,8 @@ import { ButtonComponent } from './button/button.component';
   exports: [
     CardComponent,
     TextComponent,
-    ButtonComponent
+    ButtonComponent,
+    // ButtonBsComponent
   ],
 })
 export class ControlsModule { }

@@ -15,7 +15,31 @@
 - `npx npm-check-updates -u` --- upgrade all packages
 - `npm list -g depth 0` --- list all global npm packages
 - `ng build --named-chunks --stats-json && npx webpack-bundle-analyzer dist/app/stats.json` --- bundle analyzer
+- `npm audit` to check for package vulnerabilities
+
 - To Kill already running localhost
 ```
 sudo kill -9 `sudo lsof -t -i:4200`
+```
+
+# devDependencies
+- `npm install --save-dev bootstrap`
+- `npm install --save-dev d3`
+- `npm install --save-dev google-charts`
+- `npm install --save-dev plotly.js`
+
+
+
+# npm audit
+```
+npm audit
+npm config set strict-ssl false
+npm audit --audit-level=high
+```
+
+# Set pwa
+```
+ng add @angular/pwa
+ng build --configuration=production
+npx http-server -p 8080 -c-1 dist/zuhid/browser
 ```

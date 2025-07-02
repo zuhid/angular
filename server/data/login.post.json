@@ -7,7 +7,9 @@
     "isAuthenticated": true,
     "firstName": "John",
     "lastName": "Doe",
-    "displaydata": true
+    "displaydata": true,
+    "displayGauge": true,
+    "displayBarChart": true
   },
   "signature": "mySignature"
 }
